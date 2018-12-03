@@ -1,0 +1,36 @@
+{
+  "name": "gerrit-cr",
+  "version": "1.0.0",
+  "description": "Read only CLI interface to Gerrit",
+  "main": "index.js",
+  "bin": {
+    "cr": "./bin/cr"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bahamas10/node-gerrit-cr.git"
+  },
+  "keywords": [
+    "gerrit"
+  ],
+  "author": "Dave Eddy <dave@daveeddy.com>",
+  "license": "MPL",
+  "bugs": {
+    "url": "https://github.com/bahamas10/node-gerrit-cr/issues"
+  },
+  "homepage": "https://github.com/bahamas10/node-gerrit-cr#readme",
+  "dependencies": {
+    "assert-plus": "^1.0.0",
+    "autocast": "0.0.4",
+    "cmdln": "^4.4.0",
+    "extsprintf": "^1.4.0",
+    "human-time": "0.0.1",
+    "jsprim": "^2.0.0",
+    "restify-clients": "^2.6.2",
+    "tabula": "^1.10.0",
+    "yamljs": "^0.3.0"
+  }
+}
